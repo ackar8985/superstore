@@ -1,0 +1,163 @@
+html, body {
+    overflow-x: hidden;
+}
+
+#left-pane {
+    display: block;
+    width: 15vw;
+    height: 100%;
+    background-color: rgb(230, 185, 73);
+    position: fixed;
+    top: 0px;
+}
+
+#info-box {
+    position: relative;
+    margin: 10px;
+    height: 60px;
+    width: calc(100% - 22px);
+    background-color: darkgoldenrod;
+    padding: 10px;
+}
+
+#photo-box {
+    width: 50px;
+    display: inline-block;
+}
+
+#username-display {
+    height: 40px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+.btn {
+    display: block;
+    position: relative;
+    padding: 4px 8px 4px 8px;
+    margin: 10px;
+    width: calc(15vw - 22px);
+    background-color: white;
+    outline: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:active {
+    outline: none !important;
+}
+
+.btn-danger {
+    background-color: #d43f3a;
+}
+
+#locate_isle_btn:active {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+#locate_isle_btn:focus {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+#modify_account_btn:active {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+#modify_account_btn:focus {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+#search_account_btn:active {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+#search_account_btn:focus {
+    width: calc(15vw - 10px);
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.active {
+    box-shadow: none !important;
+}
+
+.btn:active {
+    box-shadow: none !important;
+}
+
+#right-pane {
+    position: relative;
+    padding: 20px;
+    left: 15vw;
+    width: 85vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#account-modifier {
+    display: block;
+}
+
+#noAccountMessage {
+    display: none;
+}
+
+#mod_submitSearch {
+    background-color: rgb(230, 185, 73);
+    margin: 0;
+    display: inline-block;
+}
+
+#mod_submitSave {
+    background-color: green;
+    margin: 0;
+    display: none;
+    color: white;
+}
+
+#mod_submitCancel {
+    background-color: #d43f3a;
+    margin: 0;
+    display: none;
+    color: white;
+}
+
+#mod_submitDelete {
+    background-color: white;
+    margin: 0;
+    display: none;
+    border: 2px solid #d43f3a;
+    color: #d43f3a;
+}
+
+#mod_result_pane {
+    margin-top: 30px;
+}
+
+#search_result_table {
+    width: 100%;
+}
+
+#col_id {
+    width: 5vw;
+}
